@@ -1,0 +1,234 @@
+
+
+nav{
+    width: auto;
+    height: 75px;
+    padding: 0px 454px;
+    position: fixed;
+ background-image: linear-gradient(black , black);
+ color: white;
+}
+/* nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    letter-spacing: 1.5;
+    text-transform:uppercase;
+    cursor: pointer;
+text-align: left
+}
+nav ul{
+  float: right; 
+
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+} */
+
+
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 454px;
+}
+nav .logo p {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0; 
+
+    
+      }
+
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+} */
+
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px  454px;
+}
+nav .logo {
+    order: 2; /* Move the logo to the right */
+/* }
+nav .logo p {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    order: 1; /* Move the navigation links to the left */
+/* }
+nav ul li {
+    margin-right: 20px; /* Adjust margin to the right for spacing */
+/* }
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+} */ */ */ */
+
+nav {
+    display: flex;
+    justify-content: space-between, center;
+    align-items: center;
+    background-color: #333;
+    width: 454px;
+    height: auto;
+    padding: 454px;
+    color: white;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 160px 0px;
+    display: flex;
+    text-align: left;
+    text-transform: capitalize;
+   text-indent: 0px;
+  
+
+}
+
+nav ul li {
+    margin: 0 4em;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 0px;
+  
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.containers{
+    display: flex;
+    box-shadow: 10px;
+
+  
+}
+
+#container-item ul li img {
+    width: 50px;
+    height:auto;
+
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.card-container{
+    display: flex;
+    margin: 10px;
+    padding: 2px;
+    border: 5px;
+    box-shadow: 10px;
+    flex-wrap: wrap
+}  
+.card{
+    width: 300px;
+  
+    background-color:lavender ;
+    border: 4px;
+    box-shadow: 0px 2px 4px;
+    margin: 20px;
+}
+
+
+.card-content{
+    color: black;
+    border: 2px;
+    padding: 40px;
+    margin: 10px;
+}
+body{
+ 
+   background-color: rgb(221, 188, 252); 
+}
+
+p{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 450px;
+    font-style: normal;
+}
+
+.card-content .btn{
+    display:inline-block;
+    padding: 8px 16px;
+    background-color:black;
+    color: white;
+}
+
+
+
