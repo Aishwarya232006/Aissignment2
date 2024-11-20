@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itzy Pitzzy's Food</title>
+    <link rel="stylesheet" href="style.css">
+    <style>body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: lavender;
+    }
+    
+    header {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    section {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    h1, h2 {
+        animation: fadeIn 2s ease-in-out;
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    nav ul li a:hover {
+        animation: bounce 0.5s;
+    }
+    
+    @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+    }
+    
+    button {
+        padding: 10px 20px;
+        background-color: black;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    a{
+        color: white;
+    }
+    a:hover{
+        color:greenyellow;
+    }
+    button:hover {
+        background-color: #ff4500;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        animation: fadeIn 2s ease-in-out;
+    }
+    
+    /* Media Queries */
+    @media only screen and (max-width: 768px) {
+        nav ul li {
+            
+            display: block;
+            margin: 10px 0;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        header, footer {
+            text-align: left;
+            padding: 10px;
+            background-color: mediumorchid;
+    
+        }
+    
+        section {
+            padding: 10px;
+        }
+    }</style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Itzy Pitzzy's Food</h1>
+    </header>
+    <section id="home">
+        <h2>Delicious Food, Delivered Fast</h2>
+        <p>Experience the best food in town with Itzy Pitzzy's Food.</p>
+        <button id="orderNowBtn"><a href="menu.html">Order Now</button></a>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a fictional company dedicated to bringing you the best culinary delights.</p>
+    </section>
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <p>Explore our wide range of delicious dishes.</p>
+        <img src="menu.jpg" alt="Our Menu">
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for more information.</p>
+    </section>
+    <button id="HOmepagebtn" style="width: 100%; padding: 15px; background-color: #000101; color: white; border: none; border-radius: 5px; font-size: 16px;"> <a href="index.html">
+        BACK TO HOMEPAGE
+    </button></a>
+    
+        <p>© 2024 Itzy Pitzzy's Food. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
